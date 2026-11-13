@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
     }
 
     void apply() {
-        web.getSettings().setBlockNetworkImages(!imgOn);
+        web.getSettings().setBlockNetworkImage(!imgOn);
         web.getSettings().setJavaScriptEnabled(jsOn);
         btnImg.setText(imgOn ? "画像ON" : "画像OFF");
         btnJs.setText(jsOn ? "JS ON" : "JS OFF");
